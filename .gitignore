@@ -1,0 +1,9 @@
+# local env files
+.env
+node_modules
+.DS_Store
+build
+contracts/.placeholder
+test/.placeholder
+logs
+*.log
