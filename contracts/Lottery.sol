@@ -40,9 +40,9 @@ contract Lottery is VRFConsumerBase {
     //     return lotteryHistory[lottery];
     // }
 
-    // function getBalance() public view returns (uint) {
-    //     return address(this).balance;
-    // }
+    function getBalance() public view returns (uint) {
+        return address(this).balance;
+    }
 
     // function getPlayers() public view returns (address payable[] memory) {
     //     return players;
